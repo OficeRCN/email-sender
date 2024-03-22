@@ -1,0 +1,23 @@
+{
+  "name": "backend-arenanet",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.3",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.9.12",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
